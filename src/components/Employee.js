@@ -2,7 +2,7 @@ function Employee(props) {
     return (
         <>
             <h3>{props.name}</h3>
-            {props.role ? <p class="role">position: {props.role} </p> : <p class="no-role">Not an employee</p>}
+            {props.role ? <p className="role">position: {props.role} </p> : <p className="no-role">Not an employee</p>}
         </>
     )
 }
